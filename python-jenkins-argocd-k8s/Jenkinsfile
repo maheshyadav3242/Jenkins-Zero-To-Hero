@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout'){
            steps {
                 git credentialsId: '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', 
-                url: 'https://github.com/maheshyadav3242/Jenkins-Zero-To-Hero',
+                url: 'https://github.com/maheshyadav3242/Jenkins-Zero-To-Hero/python-jenkins-argocd-k8s',
                 branch: 'main'
            }
         }
